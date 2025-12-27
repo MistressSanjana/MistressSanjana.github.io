@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    h1 {font-size: 2.5rem;}
+    h2 {font-size: 1.8rem;}
+    .container {padding: 0 var(--spacing-md);}
+    .navbar-brand {width: auto;}
+    .mobile-toggle {display: flex;}
+    .navbar-menu {display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; background: var(--color-dark-burgundy); gap: 0; padding: var(--spacing-md); border-bottom: 3px solid var(--color-copper);}
+    .navbar-menu.active {display: flex;}
+    .navbar-menu li {border-bottom: 1px solid rgba(245, 241, 237, 0.1); padding: var(--spacing-sm) 0;}
+    .btn-session {width: 100%; text-align: center; margin-top: var(--spacing-sm);}
+    .hero {min-height: 70vh;}
+    .hero h1 {font-size: 2.8rem;}
+    .hero-buttons {flex-direction: column;}
+    .about-content {grid-template-columns: 1fr;}
+    .about-image {order: -1;}
+    .services-grid {grid-template-columns: 1fr;}
+    .gallery-grid {grid-template-columns: repeat(2, 1fr);}
+    .practices-grid {grid-template-columns: 1fr;}
+    .contact-content {grid-template-columns: 1fr;}
+    .form-row {grid-template-columns: 1fr;}
+    .radio-group, .checkbox-group {grid-template-columns: 1fr;}
+}
+
+@media (max-width: 480px) {
+    h1 {font-size: 2rem;}
+    h2 {font-size: 1.5rem;}
+    .hero h1 {font-size: 2rem;}
+    .gallery-grid {grid-template-columns: 1fr;}
+    .form-container {padding: var(--spacing-md);}
+}
