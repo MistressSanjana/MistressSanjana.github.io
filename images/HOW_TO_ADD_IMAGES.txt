@@ -1,0 +1,64 @@
+# HOW TO ADD IMAGES
+
+## Quick Option - Use Online Placeholder Service
+
+Visit these URLs and save the images with the exact filenames:
+
+**Hero Image** (1920x1080):
+https://via.placeholder.com/1920x1080/3d1f2e/c4b5a0?text=MISTRESS+SANJANA
+→ Save as: `hero-placeholder.jpg`
+
+**About Image** (400x400):
+https://via.placeholder.com/400x400/722f37/f5f1ed?text=ABOUT
+→ Save as: `about-placeholder.jpg`
+
+**Gallery Images** (400x400 each):
+https://via.placeholder.com/400x400/a67c8f/f5f1ed?text=GALLERY+1
+→ Save as: `gallery-1.jpg`
+
+https://via.placeholder.com/400x400/8b8680/f5f1ed?text=GALLERY+2
+→ Save as: `gallery-2.jpg`
+
+https://via.placeholder.com/400x400/b87333/f5f1ed?text=GALLERY+3
+→ Save as: `gallery-3.jpg`
+
+https://via.placeholder.com/400x400/4a3548/c4b5a0?text=GALLERY+4
+→ Save as: `gallery-4.jpg`
+
+https://via.placeholder.com/400x400/a87a6b/f5f1ed?text=GALLERY+5
+→ Save as: `gallery-5.jpg`
+
+https://via.placeholder.com/400x400/3d1f2e/c4b5a0?text=GALLERY+6
+→ Save as: `gallery-6.jpg`
+
+## Using Your Own Images
+
+1. Prepare your photos
+2. Resize to required dimensions:
+   - Hero: 1920x1080 or larger
+   - About: 400x400
+   - Gallery: 400x400 each (6 images)
+3. Rename to match filenames above
+4. Place in this `/images` folder
+5. Replace the placeholder files
+
+## Testing
+
+After adding images:
+1. Open `index.html` in a browser
+2. Check that all images display
+3. If images don't show, check:
+   - Filenames match exactly
+   - Files are in `/images` folder
+   - Image files are JPG or PNG format
+
+## Deploy
+
+After replacing images, push to GitHub:
+```bash
+git add .
+git commit -m "Updated images"
+git push
+```
+
+Website updates automatically in 2-5 minutes!
